@@ -1,0 +1,14 @@
+<state>
+  <timestamp value='1588979703215' />
+  <sourceSet name='default'>
+    <source name='E:\proyectos\ChileanRut_validation\slice\domain.ice'>
+      <file name='E:\proyectos\ChileanRut_validation\client\build\generated-src\cl\ucn\disc\pdis\lab\zeroice\model\_Marker.java' />
+      <file name='E:\proyectos\ChileanRut_validation\client\build\generated-src\cl\ucn\disc\pdis\lab\zeroice\model\Engine.java' />
+      <file name='E:\proyectos\ChileanRut_validation\client\build\generated-src\cl\ucn\disc\pdis\lab\zeroice\model\EnginePrx.java' />
+      <file name='E:\proyectos\ChileanRut_validation\client\build\generated-src\cl\ucn\disc\pdis\lab\zeroice\model\_EnginePrxI.java' />
+    </source>
+    <arg value='e:\zeroice\\bin\slice2java.exe' />
+    <arg value='-Ie:\zeroice\\slice' />
+    <arg value='--debug' />
+  </sourceSet>
+</state>
