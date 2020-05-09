@@ -31,6 +31,12 @@ public final class EngineImpl implements Engine {
         return ZonedDateTime.now().format(DateTimeFormatter.ISO_ZONED_DATE_TIME);
     }
 
+    /**
+     * Valida la composición del rut
+     * @param rut
+     * @param current
+     * @return
+     */
     public  boolean validateRut(String rut, Current current ) {
 
             Pattern pattern = Pattern.compile("^[0-9]+-[0-9kK]{1}$");
@@ -40,6 +46,12 @@ public final class EngineImpl implements Engine {
             return true;
     }
 
+    /**
+     * Valida el digito verificador
+     * @param rut
+     * @param current
+     * @return
+     */
     public boolean getDigitoVerificador(String rut,Current current){
 
         try {

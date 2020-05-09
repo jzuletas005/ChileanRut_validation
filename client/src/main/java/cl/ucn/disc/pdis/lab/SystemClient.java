@@ -51,9 +51,9 @@ public final class SystemClient {
 
             // Se ingresa el rut
             final String rut = "18312068-9";
-
+            // Se verifica la composicion del rut
             final boolean rutverify = engine.validateRut(rut);
-
+            // Se verifica el digito verificador
             final boolean digv = engine.getDigitoVerificador(rut);
             log.debug("El rut es : {} ", rut);
 
